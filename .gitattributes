@@ -1,0 +1,14 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+
+# Most Git for Windows clients are configured with the core.autocrlf set to true. 
+# This can lead to files unnecessarily being marked as modified by Git due to their line endings 
+# being converted from LF to CRLF automatically.
+
+# It is better to set this option as:
+
+# git config --global core.autocrlf input
+
+# https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html
+
