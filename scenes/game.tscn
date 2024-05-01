@@ -1,6 +1,8 @@
-[gd_scene load_steps=14 format=3 uid="uid://bor5bmblvjuer"]
+[gd_scene load_steps=16 format=3 uid="uid://bor5bmblvjuer"]
 
+[ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_8jg6p"]
 [ext_resource type="PackedScene" uid="uid://xm4k4jrc412r" path="res://scenes/player.tscn" id="1_bapm2"]
+[ext_resource type="FontFile" uid="uid://csr05x8y7m66t" path="res://assets/fonts/PixelOperator8-Bold.ttf" id="2_2j4jw"]
 [ext_resource type="Texture2D" uid="uid://b554tnnjt7hfo" path="res://assets/sprites/world_tileset.png" id="2_pjndm"]
 [ext_resource type="PackedScene" uid="uid://bo4p3tiltr5f6" path="res://scenes/platform.tscn" id="2_q3r8l"]
 [ext_resource type="PackedScene" uid="uid://dt6f14rkjvqgk" path="res://scenes/coin.tscn" id="4_pfgbv"]
@@ -452,6 +454,24 @@ _data = {
 
 [node name="Game" type="Node2D"]
 position = Vector2(-1, 0)
+
+[node name="GameManager" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("1_8jg6p")
+
+[node name="ScoreLabel" type="Label" parent="GameManager"]
+offset_left = 540.0
+offset_top = -6.0
+offset_right = 635.0
+offset_bottom = 35.0
+theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
+theme_override_fonts/font = ExtResource("2_2j4jw")
+theme_override_font_sizes/font_size = 8
+text = "You made it!
+
+You collected 
+X coins."
+horizontal_alignment = 1
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_7hf1t")
