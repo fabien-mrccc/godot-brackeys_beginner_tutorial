@@ -1,7 +1,8 @@
 # GODOT - Brackeys Beginner Tutorial
 
 ## Project Background
-**The tutorial from Brackeys channel:** [https://www.youtube.com/watch?v=LOhfqjmasi0](https://www.youtube.com/watch?v=LOhfqjmasi0) <br>
+**The tutorial from Brackeys channel:** <a href="https://www.youtube.com/watch?v=LOhfqjmasi0" target="_blank">https://www.youtube.com/watch?v=LOhfqjmasi0</a> <br>
+
 **Release date of the tutorial:** 28 avr. 2024
 
 ## Overview
