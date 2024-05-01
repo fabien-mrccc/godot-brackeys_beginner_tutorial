@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://bor5bmblvjuer"]
+[gd_scene load_steps=14 format=3 uid="uid://bor5bmblvjuer"]
 
 [ext_resource type="PackedScene" uid="uid://xm4k4jrc412r" path="res://scenes/player.tscn" id="1_bapm2"]
 [ext_resource type="Texture2D" uid="uid://b554tnnjt7hfo" path="res://assets/sprites/world_tileset.png" id="2_pjndm"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://dt6f14rkjvqgk" path="res://scenes/coin.tscn" id="4_pfgbv"]
 [ext_resource type="PackedScene" uid="uid://clbencaa7ejmw" path="res://scenes/killzone.tscn" id="5_yb8hb"]
 [ext_resource type="PackedScene" uid="uid://b46332d161mke" path="res://scenes/green_slime.tscn" id="6_bpjlo"]
+[ext_resource type="FontFile" uid="uid://b2wxlp03uyskm" path="res://assets/fonts/PixelOperator8.ttf" id="7_bjchh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qs2hj"]
 texture = ExtResource("2_pjndm")
@@ -509,3 +510,25 @@ autoplay = "new_animation"
 
 [node name="GreenSlime" parent="." instance=ExtResource("6_bpjlo")]
 position = Vector2(88, 38)
+
+[node name="Labels" type="Node" parent="."]
+
+[node name="Label" type="Label" parent="Labels"]
+offset_left = -152.0
+offset_top = 50.0
+offset_right = -56.0
+offset_bottom = 63.0
+theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
+theme_override_fonts/font = ExtResource("7_bjchh")
+theme_override_font_sizes/font_size = 8
+text = "Space to jump."
+
+[node name="Label2" type="Label" parent="Labels"]
+offset_left = 344.0
+offset_top = 51.0
+offset_right = 440.0
+offset_bottom = 64.0
+theme_override_colors/font_color = Color(0.0117647, 0.14902, 0.34902, 1)
+theme_override_fonts/font = ExtResource("7_bjchh")
+theme_override_font_sizes/font_size = 8
+text = "Falling hurts..."
