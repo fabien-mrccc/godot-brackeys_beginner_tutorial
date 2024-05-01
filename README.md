@@ -10,7 +10,8 @@ Learn the basics of the engine by creating a 2D platformer.
 
 ## User Guide
 The easiest way to test the game is to click on the green "<> Code" button and then click on "Download ZIP". <br>
-Once downloaded, all you have to do is open the file "brackeys_beginner_tutorial.exe". 
+Once downloaded, all you have to do is open the file "brackeys_beginner_tutorial.exe". <br>
+To move, use the arrow keys or the "Q" and "D" keys.
 
 ## Preview
 ### Start of the game
