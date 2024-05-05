@@ -1,4 +1,4 @@
-# GODOT - Brackeys Beginner Tutorial
+# GODOT - Brackeys Beginner Tutorial (2D platformer)
 
 ## Project Background
 **The tutorial from Brackeys channel:** <a href="https://www.youtube.com/watch?v=LOhfqjmasi0" target="_blank">https://www.youtube.com/watch?v=LOhfqjmasi0</a> <br>
@@ -6,8 +6,7 @@
 **Release date of the tutorial:** 28 avr. 2024
 
 ## Overview
-Make your first game in Godot! <br>
-Learn the basics of the engine by creating a 2D platformer.
+"Make your first game in Godot! Learn the basics of the engine by creating a 2D platformer."
 
 ## User Guide
 The easiest way to test the game is to click on the green "<> Code" button and then click on "Download ZIP". <br>
